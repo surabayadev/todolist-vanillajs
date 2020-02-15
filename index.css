@@ -1,0 +1,34 @@
+.todo-item {}
+.todo-item .todo-status {
+    width: 30px;
+}
+.todo-item .todo-status input[type=checkbox] {
+    transform: scale(2);
+}
+.todo-item .todo-content {
+    width: 65%;
+}
+.todo-item .todo-action {
+    width: 20%;
+}
+
+
+/**
+* =================
+* IKI HELPERS PREND
+*/
+.b {
+    background: red;
+}
+
+.mb-1 {
+    margin-bottom: 10px !important;
+}
+
+.mb-2 {
+    margin-bottom: 20px !important;
+}
+
+.mb-3 {
+    margin-bottom: 30px !important;
+}

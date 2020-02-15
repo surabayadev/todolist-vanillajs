@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO List app</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="hero is-primary mb-3">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <h1 class="title">
+                    TODO List Prend
+                </h1>
+                <h2 class="subtitle">
+                    Iki description
+                </h2>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+
+                <!-- Buat Tugas Baru -->
+                <form id="form-todo" class="card mb-3">
+                    <header class="card-header has-background-info">
+                        <p class="card-header-title has-text-white">
+                            Buat Tugas Baru
+                        </p>
+                        <a href="#" class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <div class="field">
+                                <label class="label">Tugas</label>
+                                <div class="control">
+                                    <input type="text" name="todo" maxlength="100" class="input" placeholder="Tuliskan tugas yg bukan wacana belaka....">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="button is-fullwidth">Save</button>
+                    </div>
+                </form>
+
+                <!-- Daftar Tugas -->
+                <div class="card mb-3">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            (<span class="todoCounter">99</span>) Tugas Hari ini
+                        </p>
+                        <!-- <a href="#" id="sort-action" class="card-header-icon">
+                            Sort: ASC
+                        </a> -->
+                    </header>
+                    <div class="card-content is-paddingless">
+                        <div class="content">
+                            <div id="todo-container" class="list is-hoverable">
+                                <!-- <div id="todo-empty" class="list-item is-hidden has-text-centered has-text-grey">
+                                    Gak onok opo-opo
+                                </div> -->
+                                
+                                <!-- <div class="list-item has-background-success has-text-white"> -->
+                                <!-- <div data-id ="0" class="todo-item list-item is-clearfix">
+                                    <div class="todo-status is-pulled-left">
+                                        <label class="checkbox">
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+                                    <div class="todo-content is-pulled-left">
+                                        Pergi Ngopi dulu prend
+                                    </div>
+                                    <div class="todo-action is-pulled-right has-text-right">
+                                        <a href="#" class="todo-delete button is-small is-danger">Delete</a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" id="complete-all" class="card-footer-item has-text-success">Mark All Complete</a>
+                        <a href="#" id="remove-all" class="card-footer-item has-text-danger">Remove All</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" style="margin-top: 30px;">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Vanilla TODO</strong> by <a href="https://antoniputra.com">Antoni Putra</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
