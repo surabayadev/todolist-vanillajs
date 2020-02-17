@@ -1,4 +1,4 @@
-# TODOLIST Vanilla JS
+# Todo List in Vanilla JS
 
 This Project are intended for Learning purpose, hopefully we can well-prepared from this project before going further and beyond.
 
@@ -11,7 +11,7 @@ Just clone or Download this Repository, then open `index.html` in your local mac
 
 ## Online Demo
 
-[[I'm an inline-style link](https://surabayadev.github.io/todolist-vanillajs)](https://surabayadev.github.io/todolist-vanillajs)
+[https://surabayadev.github.io/todolist-vanillajs](https://surabayadev.github.io/todolist-vanillajs)
 
 
 ## Next Task
